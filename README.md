@@ -23,7 +23,6 @@
     pip install -r requirements.txt
     ```
 
-3. Создайте файл `.env` и добавьте ваш токен API:
     ```
     API_TOKEN=ваш_токен_здесь
     ```
