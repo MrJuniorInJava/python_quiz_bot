@@ -22,8 +22,7 @@
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     pip install -r requirements.txt
     ```
-
-3. Создайте файл `.env` и добавьте ваш токен API:
+3. Откройте файл .env и запишите ваш API_TOKEN: 
     ```
     API_TOKEN=ваш_токен_здесь
     ```
