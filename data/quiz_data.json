@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Что такое Python?",
+        "options": [
+            "Язык программирования",
+            "Тип данных",
+            "Музыкальный инструмент",
+            "Змея на английском"
+        ],
+        "correct_option": 0
+    },
+    {
+        "question": "Какой тип данных используется для хранения целых чисел?",
+        "options": [
+            "int",
+            "float",
+            "str",
+            "natural"
+        ],
+        "correct_option": 0
+    },
+    {
+        "question": "Какой результат выполнения следующего кода?\n\n```Python\nsets = {3, 4, 5}\nsets.update([1, 2, 3])\nprint(sets)\n```",
+        "options": [
+            "{1, 2, 3, 4, 5}",
+            "{3, 4, 5, 1, 2, 3}",
+            "{1, 2, 3, 3, 4, 5}",
+            "Ошибка"
+        ],
+        "correct_option": 0
+    },
+    {
+        "question": "Что выведет следующая программа?\n\n```Python\nset1 = {1, 2, 3}\nset2 = set1.copy()\nset2.add(4)\nprint(set1)\n```",
+        "options": [
+            "{1, 2, 3, 4}",
+            "{1, 2, 3}",
+            "Invalid Syntax",
+            "Ошибка"
+        ],
+        "correct_option": 1
+    },
+    {
+        "question": "Что выведет следующая программа?\n\n```Python\nset1 = {1, 2, 3}\nset2 = set1.add(4)\nprint(set2)\n```",
+        "options": [
+            "{1, 2, 3, 4}",
+            "{1, 2, 3}",
+            "Invalid Syntax",
+            "None"
+        ],
+        "correct_option": 3
+    },
+    {
+        "question": "Что выведет следующая программа?\n\n```Python\nset1 = set([ 4, 5, (6, 7)])\nset1.update([10, 11])\nprint(set1)\n```",
+        "options": [
+            "{4, 5, 6, 7, 10, 11}",
+            "{4, 5, 10, 11}",
+            "{4, 5, (6, 7), 10, 11}",
+            "None"
+        ],
+        "correct_option": 2
+    },
+    {
+        "question": "Какой синтаксис используется для определения функции в Python?",
+        "options": [
+            "def",
+            "fun",
+            "function",
+            "define"
+        ],
+        "correct_option": 0
+    },
+    {
+        "question": "Как правильно создать пустой список в Python?",
+        "options": [
+            "my_list = {}",
+            "my_list = ()",
+            "my_list = []",
+            "my_list = [“”]"
+        ],
+        "correct_option": 2
+    },
+    {
+        "question": "Как преобразовать строку в нижний регистр в Python?",
+        "options": [
+            "string.upper()",
+            "string.lower()",
+            "string.capitalize()",
+            "string.swapcase()"
+        ],
+        "correct_option": 1
+    },
+    {
+        "question": "Какой модуль используется для работы с датой и временем в Python?",
+        "options": [
+            "math",
+            "os",
+            "datetime",
+            "random"
+        ],
+        "correct_option": 2
+    }
+]
