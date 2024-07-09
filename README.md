@@ -12,8 +12,8 @@
 
 1. Клонируйте репозиторий:
     ```sh
-    git clone https://github.com/ваш_логин/your_repo_name.git
-    cd your_repo_name
+    git clone https://github.com/MrJuniorInJava/quiz_bot.git
+    cd quiz_bot
     ```
 
 2. Создайте виртуальное окружение и установите зависимости:
@@ -36,7 +36,6 @@
 
 - `bot/` - Код бота.
 - `data/` - Файлы данных.
-- `.gitignore` - Файлы и папки, игнорируемые Git.
 - `README.md` - Описание проекта.
 - `requirements.txt` - Зависимости проекта.
-- `config.py` - Конфигурационный файл (если нужен).
+- `config.py` - Конфигурационный файл.
